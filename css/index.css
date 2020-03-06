@@ -1,0 +1,130 @@
+body{
+    background-image: url("../resources/images/gif2.gif"),linear-gradient(red,black,yellow);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#scorevalue,#attemptvalue,#Answeredvalue{
+    padding:10px;
+    color:red;
+}
+
+#inputanswere{
+    background-color:lightgreen;
+    width:200px;
+    height:40px;
+    border-radius:10px;
+    color: black;
+    box-shadow:10px;
+}
+
+
+
+#btn{
+    background-color:white;
+    width:200px;
+    height:40px;
+    border-radius:10px;
+    color: white;
+    color:green;
+    
+}
+
+#btnans{
+    background-color:white;
+    width:200px;
+    height:40px;
+    border-radius:10px;
+    color: white;
+    color:green;
+    
+}
+
+
+#btn:hover{
+    background-color: green;
+    color: white;
+}
+
+#btnans:hover{
+    background-color: green;
+    color: white;
+}
+
+#params{
+    color:goldenrod;
+    font-size:30px;
+}
+
+.questionarea{
+    opacity:0.7;
+    background-color:whitesmoke;
+    text-decoration-style: wavy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left:20%;
+    margin-right:10%;
+    border-radius:10px;
+    border-color: tomato;
+    box-shadow: 10px black;
+    text-align: center;
+    padding:5px;
+    width:50%;
+    float: left;
+    
+}
+.div1{
+    margin-left: 30%;
+    margin-top:40%;
+    
+}
+
+
+.start,.quit{
+    width:200px;
+    height:100px;
+    border-radius:10px;
+    box-shadow: 20px red;
+}
+
+
+.quit:hover{
+    color: red;
+    font-size: xx-large;
+    border-radius:50px;
+    box-shadow: 20px white;
+    background-image: url("../resources/images/school3.gif"),linear-gradient(red,black,yellow);
+}
+
+
+.start:hover{
+    color: red;
+    font-size: xx-large;
+    border-radius:50px;
+    box-shadow: 20px white;
+    background-image: url("../resources/images/school2.gif"),linear-gradient(red,black,yellow);
+}
+
+
+.start{
+    background-image: url("../resources/images/pic7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: red;
+    text-overflow: ellipsis;
+    font-size: large;
+    color: white;
+}
+
+
+.quit{
+    background-image: url("../resources/images/pic4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: red;
+    text-overflow: ellipsis;
+    font-size: large;
+    color: white;
+    margin-left:20px;
+}
+

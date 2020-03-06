@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LEARN AND GAME</title>
+        <link href="../css/index.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="questionsArea" id="questionsArea">
+            
+        </div>
+
+        <div class="questionArea" style="display: none;" id="area">
+           <h2><span id="params" class="score">score</span><span id="scorevalue">00</span></h2>
+           <h2><span id="params">Attempts</span><span id="attemptvalue">00</span></h2>
+           <h2><span id="params">Answered</span><span id="Answeredvalue">0/5</span></h2>
+        </div>
+        
+        <div class="div1" id="div1">
+            <button class="start" id="startgame" onmousemove="pop()" onclick="playgame()">START</button>
+            <button class="quit" id="quitgame" onclick="killgame()" onmousemove="pop()">QUIT</button>
+            <audio  src="../resources/audio/audio3.mp3" hidden autoplay loop></audio>
+            <audio id="pop1" src="../resources/audio/pop1.mp3" hidden></audio>
+            <audio id="play" src="../resources/audio/play.mp3" hidden></audio>
+            <audio id="coins" src="../resources/audio/coins.mp3" hidden></audio>
+            <audio id="correct" src="../resources/audio/correctnext.mp3" hidden></audio>
+            <audio id="wrong" src="../resources/audio/alertWrong.mp3" hidden></audio>
+        </div>
+         <script src="../jscontrollers/main.js" type="text/javascript"></script>
+    </body>
+   
+</html>
