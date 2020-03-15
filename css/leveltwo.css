@@ -1,16 +1,23 @@
 body{
-    background-image: url("../resources/images/gif2.gif"),linear-gradient(red,black,yellow);
+    background-image: url("../resources/images/gif12.gif"),linear-gradient(red,black,yellow);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     overflow: hidden;
 }
-
 #scorevalue,#attemptvalue,#Answeredvalue,#performance{
     padding:10px;
     color:red;
 }
-
+#hint{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    margin: 0;
+}
+#noteRead{
+    color: red;
+    margin: 0;
+}
 #inputanswere{
     background-color:lightgreen;
     width:200px;
@@ -54,13 +61,13 @@ body{
 }
 
 #params{
-    color:goldenrod;
+    color:white;
     font-size:30px;
 }
 
 .questionarea{
     opacity:0.7;
-    background-color:whitesmoke;
+    background-color:#D4F9FE;
     text-decoration-style: wavy;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left:20%;
@@ -128,4 +135,3 @@ body{
     color: white;
     margin-left:20px;
 }
-
